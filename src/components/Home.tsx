@@ -6,7 +6,7 @@ const Home = ({ onShowModal }: { onShowModal: (value: boolean) => void }) => (
     <header className='fixed w-full pt-8 lg:pt-5 h-44 lg:h-20 bg-white'>
       <div className='w-10/12 mx-auto flex flex-col sm:flex-row justify-between items-center'>
         <h3>
-          <span className='font-bold'>HWR</span> foundation
+          <span className='font-bold'>HWR</span> charity foundation
         </h3>
         <ul className='flex flex-col items-center sm:flex-row text-xs sm:text-base flex-wrap mt-3 md:mt-0'>
           <li className='px-3'>
@@ -41,7 +41,7 @@ const Home = ({ onShowModal }: { onShowModal: (value: boolean) => void }) => (
         />
         <div className='w-4/5 mx-auto lg:w-full'>
           <p className='text-center lg:text-left text-2xl lg:text-5xl lg:mx-auto lg:mt font-semibold'>
-            Building Hope: Helping War Refugees Foundation
+            Building Hope: Helping War Refugees Charity Foundation
           </p>
           <p className='text-center lg:text-left text-xs lg:text-2xl mt-2 mb-4'>
             where every donation transforms lives. As conflicts and crises
