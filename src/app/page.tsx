@@ -6,9 +6,6 @@ import Modal from '@/components/Modal';
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
-  useEffect(() => {
-    console.log(showModal);
-  });
   return (
     <>
       <HomeContents onShowModal={setShowModal} />

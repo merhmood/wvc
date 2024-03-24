@@ -69,10 +69,10 @@ const Home = ({ onShowModal }: { onShowModal: (value: boolean) => void }) => (
         <div className='max-w-5xl w-4/5 mx-auto lg:flex lg:justify-between lg:items-center lg:mt-14'>
           <Image
             src='/Images/ismail-salad-osman-hajji-dirir-v7FT5ngIEfA-unsplash.jpg'
-            width={300}
-            height={300}
+            width={500}
+            height={500}
             alt=''
-            className='rounded-md my-4 lg:my-0'
+            className='rounded-md my-4 lg:my-0 lg:w-80 lg:h-80 object-cover'
           />
           <div className='lg:w-[650px]'>
             <h3 className='text-lg lg:text-3xl font-semibold mb-1 lg:mb-4'>
@@ -90,11 +90,11 @@ const Home = ({ onShowModal }: { onShowModal: (value: boolean) => void }) => (
         <div className='max-w-5xl w-4/5 mx-auto lg:flex lg:flex-row-reverse lg:justify-between lg:items-center lg:mt-14'>
           <Image
             src='/Images/maayan-nemanov-qLViefEYGLc-unsplash.jpg'
-            width={300}
-            height={300}
+            width={500}
+            height={500}
             objectFit='cover'
             alt=''
-            className='rounded-md my-4 lg:my-0'
+            className='rounded-md my-4 lg:my-0 lg:w-80 lg:h-80 object-cover'
           />
           <div className='lg:w-[650px]'>
             <h3 className='text-lg lg:text-3xl font-semibold mb-1 lg:mb-4'>

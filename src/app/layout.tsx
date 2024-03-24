@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'HWR charity foundation',
   description:
     'Together, we can make a meaningful difference in the lives of refugees by providing essential support, opportunities, and pathways to a brighter future.',
+  icons: '/heart.png',
 };
 
 export default function RootLayout({
@@ -17,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <head>
+        <link rel='shortcut icon' href='/heart.png' type='image/png' />
+      </head>
       <body className={josefinSans.className}>
         <div id='modal'></div>
         {children}
