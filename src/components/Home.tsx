@@ -60,7 +60,7 @@ const Home = ({ onShowModal }: { onShowModal: (value: boolean) => void }) => (
     </section>
     <section className='mt-96 lg:mt-20'>
       <h3
-        className='text-2xl lg:text-4xl font-semibold text-center mb-4 lg:mb-16'
+        className='text-2xl lg:text-4xl font-semibold text-center mb-4 lg:mb-16 mt-10 lg:mt-0'
         id='about'
       >
         WHY US
