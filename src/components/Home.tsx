@@ -43,7 +43,7 @@ const Home = ({ onShowModal }: { onShowModal: (value: boolean) => void }) => (
           <p className='text-center lg:text-left text-2xl lg:text-5xl lg:mx-auto lg:mt font-semibold'>
             Building Hope: Helping War Refugees Charity Foundation
           </p>
-          <p className='text-center lg:text-left text-xs lg:text-2xl mt-2 mb-4'>
+          <p className='text-center lg:text-left text-sm lg:text-2xl mt-2 mb-4'>
             where every donation transforms lives. As conflicts and crises
             displace millions worldwide, our foundation stands as a beacon of
             hope for those seeking safety, shelter, and a chance to rebuild
@@ -58,7 +58,7 @@ const Home = ({ onShowModal }: { onShowModal: (value: boolean) => void }) => (
         </div>
       </div>
     </section>
-    <section className='mt-72 lg:mt-20'>
+    <section className='mt-96 lg:mt-20'>
       <h3
         className='text-2xl lg:text-4xl font-semibold text-center mb-4 lg:mb-16'
         id='about'
