@@ -114,9 +114,9 @@ const Home = ({ onShowModal }: { onShowModal: (value: boolean) => void }) => (
     <section id='contact'>
       <div className='mt-16 w-4/5 mx-auto'>
         <p className=' text-md lg:text-2xl mb-4 text-center'>
-          If you have any questions, feedback, or would like to learn more about
-          how you can support Building Hope: Empowering Refugees Foundation,
-          please don't hesitate to reach out to us.
+          {
+            "If you have any questions, feedback, or would like to learn more about how you can support Building Hope: Empowering Refugees Foundation, please don't hesitate to reach out to us."
+          }
         </p>
         <a
           href='#'
